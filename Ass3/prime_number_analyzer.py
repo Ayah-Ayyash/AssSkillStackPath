@@ -13,4 +13,3 @@ with open("primes.txt", "w") as file:
     for num in range(start, end + 1):
         if is_prime(num):
             file.write(str(num) + "\n")
-س
